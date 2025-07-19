@@ -61,7 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Space Motors brand colors
+				'space-cyan': 'hsl(var(--space-cyan))',
+				'space-yellow': 'hsl(var(--space-yellow))',
+				'space-black': 'hsl(var(--space-black))',
+				'space-gray': 'hsl(var(--space-gray))'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-glow': 'var(--gradient-glow)'
+			},
+			boxShadow: {
+				'cyan': 'var(--shadow-cyan)',
+				'yellow': 'var(--shadow-yellow)',
+				'elevation': 'var(--shadow-elevation)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
