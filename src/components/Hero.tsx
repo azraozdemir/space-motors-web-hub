@@ -1,7 +1,7 @@
 import { ArrowRight, Shield, Wrench, Car } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import workshopHero from '@/assets/workshop-hero.jpg';
+import workshopHero from '../assets/workshop-hero.jpg';
 
 const Hero = () => {
   const features = [

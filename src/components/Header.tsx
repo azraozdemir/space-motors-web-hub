@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import spaceMotorsLogo from '@/assets/space-motors-logo.png';
+import spaceMotorsLogo from '../assets/space-motors-logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
