@@ -2,7 +2,6 @@ import { CheckCircle } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 const GoogleReviews = () => {
-  // Beispielhafte Rezensionen
   const reviews = [
     {
       name: 'Canan Y.',
