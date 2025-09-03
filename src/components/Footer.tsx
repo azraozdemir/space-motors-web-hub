@@ -64,22 +64,22 @@ const Footer = () => {
             
             <p className="text-muted-foreground text-sm leading-relaxed">
               Ihre professionelle Autowerkstatt und Ihr vertrauensvoller Partner für 
-              Fahrzeugverkauf in Wien. Modernste Technik, faire Preise, erstklassiger Service.
+              Fahrzeugverkauf in Wels. Modernste Technik, faire Preise, erstklassiger Service.
             </p>
 
             {/* Quick Contact */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm">
                 <Phone className="h-4 w-4 text-space-cyan flex-shrink-0" />
-                <span className="text-muted-foreground">+43 123 456 789</span>
+                <span className="text-muted-foreground">+43 664 9103790</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Mail className="h-4 w-4 text-space-yellow flex-shrink-0" />
-                <span className="text-muted-foreground">info@spacemotors.at</span>
+                <span className="text-muted-foreground">office@spacemotors.at</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <MapPin className="h-4 w-4 text-space-cyan flex-shrink-0" />
-                <span className="text-muted-foreground">Werkstattstraße 123, 1234 Wien</span>
+                <span className="text-muted-foreground">Europastraße 80, 4060 Wels</span>
               </div>
             </div>
           </div>
@@ -117,11 +117,11 @@ const Footer = () => {
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Montag - Freitag:</span>
-                  <span className="text-space-cyan font-medium">08:00 - 18:00</span>
+                  <span className="text-space-cyan font-medium">08:30 - 17:30</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Samstag:</span>
-                  <span className="text-space-cyan font-medium">08:00 - 12:00</span>
+                  <span className="text-space-cyan font-medium">10:00 - 15:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Sonntag:</span>
@@ -133,16 +133,8 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row gap-3">
               <Button 
                 variant="outline" 
-                className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground"
-                onClick={() => window.location.href = '#appointment'}
-              >
-                Termin vereinbaren
-              </Button>
-              
-              <Button 
-                variant="outline" 
                 className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground"
-                onClick={() => window.open('https://autoscout24.at', '_blank')}
+                onClick={() => window.open('https://www.autoscout24.at/haendler/space-motors-gmbh', '_blank')}
               >
                 Fahrzeuge ansehen
                 <ExternalLink className="ml-2 h-4 w-4" />
@@ -166,18 +158,6 @@ const Footer = () => {
                 className="text-muted-foreground hover:text-space-cyan transition-colors"
               >
                 Impressum
-              </a>
-              <a 
-                href="/datenschutz" 
-                className="text-muted-foreground hover:text-space-cyan transition-colors"
-              >
-                Datenschutz
-              </a>
-              <a 
-                href="#agb" 
-                className="text-muted-foreground hover:text-space-cyan transition-colors"
-              >
-                AGB
               </a>
             </div>
           </div>

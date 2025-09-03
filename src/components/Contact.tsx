@@ -7,25 +7,19 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Adresse',
-      details: ['Werkstattstraße 123', '1234 Wien, Österreich'],
-      action: () => window.open('https://maps.google.com?q=Werkstattstraße+123+Wien', '_blank')
+      details: ['Europastraße 80', '4060 Wels, Österreich'],
+      action: () => window.open('https://maps.app.goo.gl/M5BeyrGqAQ2gsmSS6', '_blank')
     },
     {
       icon: Phone,
       title: 'Telefon',
-      details: ['+43 123 456 789', 'Mo-Fr 8:00-18:00'],
+      details: ['+43 664 9103790'],
       action: () => window.location.href = 'tel:+43123456789'
-    },
-    {
-      icon: Mail,
-      title: 'E-Mail',
-      details: ['info@spacemotors.at', 'Antwort binnen 24h'],
-      action: () => window.location.href = 'mailto:info@spacemotors.at'
     },
     {
       icon: Clock,
       title: 'Öffnungszeiten',
-      details: ['Mo-Fr: 08:00-18:00', 'Sa: 08:00-12:00', 'So: Geschlossen'],
+      details: ['Mo-Fr: 08:30-17:30', 'Sa: 10:00-15:00', 'So: Geschlossen'],
       action: null
     }
   ];
@@ -47,7 +41,7 @@ const Contact = () => {
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Finden Sie uns im Herzen von Wien. Wir freuen uns auf Ihren Besuch 
+            Finden Sie uns im Herzen von Wels. Wir freuen uns auf Ihren Besuch
             in unserer modernen Werkstatt und unserem Fahrzeugzentrum.
           </p>
         </div>
@@ -86,13 +80,13 @@ const Contact = () => {
             {/* Quick Actions */}
             <Card className="p-6 bg-background/10 backdrop-blur-sm border-border/50">
               <h3 className="text-xl font-semibold mb-4 text-space-cyan">
-                Schnellkontakt
+                Sofortkontakt
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Button 
                   variant="outline" 
                   className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground h-12"
-                  onClick={() => window.location.href = 'tel:+43123456789'}
+                  onClick={() => window.location.href = 'tel:+436649103790'}
                 >
                   <Phone className="mr-2 h-4 w-4" />
                   Jetzt anrufen
@@ -101,10 +95,10 @@ const Contact = () => {
                 <Button 
                   variant="outline" 
                   className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground h-12"
-                  onClick={() => window.open('https://maps.google.com?q=Werkstattstraße+123+Wien', '_blank')}
+                  onClick={() => window.open('https://wa.me/436649103790', '_blank')}
                 >
                   <Navigation className="mr-2 h-4 w-4" />
-                  Route planen
+                  Whatsapp
                 </Button>
               </div>
             </Card>
@@ -115,9 +109,9 @@ const Contact = () => {
                 Anfahrt & Parken
               </h4>
               <div className="space-y-2 text-sm text-muted-foreground">
-                <p>• Direkt neben der U-Bahn Station Werkstattplatz</p>
+                <p>• Bus-Haltestelle „Schwimmbad“ wenige Gehminuten entfernt</p>
+                <p>• Fahrpläne über Wels Linien </p>
                 <p>• Kostenlose Parkplätze für Kunden verfügbar</p>
-                <p>• Öffentliche Verkehrsmittel: U3, Bus 15A</p>
                 <p>• Barrierefreier Zugang zur Werkstatt</p>
               </div>
             </Card>
@@ -139,7 +133,7 @@ const Contact = () => {
                     Interaktive Karte wird geladen...
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    Werkstattstraße 123, 1234 Wien
+                    Europastraße 80, 4060 Wels
                   </p>
                 </div>
               </div>
@@ -147,7 +141,7 @@ const Contact = () => {
               <Button 
                 variant="outline" 
                 className="w-full border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground"
-                onClick={() => window.open('https://maps.google.com?q=Werkstattstraße+123+Wien', '_blank')}
+                onClick={() => window.open('https://maps.app.goo.gl/M5BeyrGqAQ2gsmSS6', '_blank')}
               >
                 <Navigation className="mr-2 h-4 w-4" />
                 In Google Maps öffnen
@@ -161,9 +155,9 @@ const Contact = () => {
               </h4>
               <div className="space-y-3">
                 {[
-                  { day: 'Montag - Freitag', hours: '08:00 - 18:00', note: 'Werkstatt & Verkauf' },
-                  { day: 'Samstag', hours: '08:00 - 12:00', note: 'Nur Notfälle' },
-                  { day: 'Sonntag', hours: 'Geschlossen', note: '24h Abschleppdienst' }
+                  { day: 'Montag - Freitag', hours: '08:30 - 17:30', note: 'Werkstatt & Verkauf' },
+                  { day: 'Samstag', hours: '10:00 - 15:00', note: 'Werkstatt & Verkauf' },
+                  { day: 'Sonntag', hours: 'Geschlossen' }
                 ].map((schedule, index) => (
                   <div key={index} className="flex justify-between items-center py-2 border-b border-border/20 last:border-b-0">
                     <div>

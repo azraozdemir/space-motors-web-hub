@@ -19,7 +19,7 @@ const Services = () => {
       icon: Shield,
       title: '§57a Pickerl-Überprüfung',
       description: 'Offizielle technische Überprüfung Ihres Fahrzeugs nach österreichischen Standards',
-      price: 'ab €45',
+      price: 'ab €70',
       popular: true
     },
     {
@@ -143,41 +143,12 @@ const Services = () => {
                       size="sm"
                       className="text-space-cyan hover:text-primary-foreground hover:bg-space-cyan"
                     >
-                      Anfragen
                     </Button>
                   </div>
                 </div>
               </div>
             </Card>
           ))}
-        </div>
-
-        {/* CTA Section */}
-        <div className="text-center">
-          <div className="bg-gradient-dark rounded-2xl p-8 lg:p-12 border border-border/50">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-              <span className="text-space-cyan">Brauchen Sie</span> einen anderen Service?
-            </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Kontaktieren Sie uns für eine individuelle Beratung. 
-              Wir finden für jedes Fahrzeugproblem die richtige Lösung.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                className="bg-gradient-primary text-primary-foreground hover:shadow-cyan"
-              >
-                Jetzt Termin vereinbaren
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground"
-              >
-                Kostenvoranschlag anfragen
-              </Button>
-            </div>
-          </div>
         </div>
       </div>
     </section>

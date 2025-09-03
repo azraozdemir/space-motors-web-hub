@@ -73,7 +73,7 @@ const Vehicles = () => {
               </p>
             </div>
 
-            {/* Mock Vehicle Preview Cards */}
+            {/* Mock Vehicle Preview Cards
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               {[1, 2, 3].map((_, index) => (
                 <Card key={index} className="p-4 bg-card/50 backdrop-blur-sm border-border/50 group hover:border-space-cyan/40 transition-all duration-300">
@@ -94,13 +94,13 @@ const Vehicles = () => {
                   </div>
                 </Card>
               ))}
-            </div>
+            </div> */}
 
             <div className="space-y-4">
               <Button 
                 size="lg" 
                 className="bg-gradient-primary text-primary-foreground hover:shadow-cyan group text-lg px-8 py-4"
-                onClick={() => window.open('https://autoscout24.at', '_blank')}
+                onClick={() => window.open('https://www.autoscout24.at/haendler/space-motors-gmbh', '_blank')}
               >
                 Alle Fahrzeuge auf AutoScout24 ansehen
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -109,7 +109,7 @@ const Vehicles = () => {
               <div className="text-sm text-muted-foreground">
                 <p>
                   Oder rufen Sie uns an: 
-                  <span className="text-space-cyan font-semibold ml-1">+43 123 456 789</span>
+                  <span className="text-space-cyan font-semibold ml-1">+43 664 9103790</span>
                 </p>
               </div>
             </div>
@@ -126,7 +126,7 @@ const Vehicles = () => {
               Sie möchten Ihr Fahrzeug verkaufen? Wir kaufen Fahrzeuge aller Marken zu fairen Preisen an.
             </p>
             <Button variant="outline" className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground">
-              Jetzt bewerten lassen
+              ????
             </Button>
           </Card>
 
@@ -138,7 +138,7 @@ const Vehicles = () => {
               Nutzen Sie Ihr altes Fahrzeug als Anzahlung für Ihren neuen Traumwagen.
             </p>
             <Button variant="outline" className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground">
-              Wert ermitteln
+              ????
             </Button>
           </Card>
         </div>

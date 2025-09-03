@@ -10,7 +10,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'Werkstatt', href: '#services' },
     { name: 'Fahrzeuge', href: '#vehicles' },
-    { name: 'Termin', href: '#appointment' },
+    { name: 'Rezensionen', href: '#reviews' },
     { name: 'Kontakt', href: '#contact' },
   ];
 
@@ -37,11 +37,11 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-6 text-sm">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Phone size={16} className="text-space-cyan" />
-              <span>+43 123 456 789</span>
+              <span>+43 664 9103790</span>
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Clock size={16} className="text-space-yellow" />
-              <span>Mo-Fr 8:00-18:00</span>
+              <span>Mo-Fr 8:30-17:30</span>
             </div>
           </div>
 
@@ -59,10 +59,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button - Desktop */}
-          <Button variant="default" className="hidden lg:flex bg-gradient-primary text-primary-foreground hover:shadow-cyan">
-            Termin vereinbaren
-          </Button>
 
           {/* Mobile Menu Button */}
           <button
@@ -90,15 +86,12 @@ const Header = () => {
               <div className="pt-4 border-t border-border">
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-2">
                   <Phone size={16} className="text-space-cyan" />
-                  <span>+43 123 456 789</span>
+                  <span>+43 664 9103790</span>
                 </div>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4">
                   <Clock size={16} className="text-space-yellow" />
-                  <span>Mo-Fr 8:00-18:00</span>
+                  <span>Mo-Fr 8:30-17:30</span>
                 </div>
-                <Button variant="default" className="w-full bg-gradient-primary text-primary-foreground">
-                  Termin vereinbaren
-                </Button>
               </div>
             </nav>
           </div>

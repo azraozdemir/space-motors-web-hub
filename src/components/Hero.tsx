@@ -62,17 +62,10 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-gradient-primary text-primary-foreground hover:shadow-cyan group"
-              >
-                Termin vereinbaren
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              
-              <Button 
-                variant="outline" 
+
+            <div className="flex flex-col sm:flex-row gap-4" >
+              <Button
+                variant="outline"
                 size="lg"
                 className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground"
               >
@@ -102,17 +95,17 @@ const Hero = () => {
           <div className="hidden lg:block">
             <div className="grid grid-cols-2 gap-6">
               <Card className="p-6 bg-card/30 backdrop-blur-sm border-space-cyan/20 hover:border-space-cyan/40 transition-all duration-300">
-                <div className="text-3xl font-bold text-space-cyan mb-2">15+</div>
+                <div className="text-3xl font-bold text-space-cyan mb-2">20+</div>
                 <div className="text-sm text-muted-foreground">Jahre Erfahrung</div>
               </Card>
               
               <Card className="p-6 bg-card/30 backdrop-blur-sm border-space-yellow/20 hover:border-space-yellow/40 transition-all duration-300">
-                <div className="text-3xl font-bold text-space-yellow mb-2">2500+</div>
+                <div className="text-3xl font-bold text-space-yellow mb-2">5000+</div>
                 <div className="text-sm text-muted-foreground">Zufriedene Kunden</div>
               </Card>
               
               <Card className="p-6 bg-card/30 backdrop-blur-sm border-space-cyan/20 hover:border-space-cyan/40 transition-all duration-300">
-                <div className="text-3xl font-bold text-space-cyan mb-2">24h</div>
+                <div className="text-3xl font-bold text-space-cyan mb-2">9h</div>
                 <div className="text-sm text-muted-foreground">Service-Hotline</div>
               </Card>
               
