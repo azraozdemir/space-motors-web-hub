@@ -64,6 +64,7 @@ const Hero = () => {
 
 
             <div className="flex flex-col sm:flex-row gap-4" >
+              <a href="#vehicles">
               <Button
                 variant="outline"
                 size="lg"
@@ -71,6 +72,7 @@ const Hero = () => {
               >
                 Fahrzeuge ansehen
               </Button>
+              </a>
             </div>
 
             {/* Feature Cards */}
