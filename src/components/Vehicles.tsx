@@ -96,10 +96,10 @@ const Vehicles = () => {
               ))}
             </div> */}
 
-            <div className="space-y-4">
-              <Button 
-                size="lg" 
-                className="bg-gradient-primary text-primary-foreground hover:shadow-cyan group text-lg px-8 py-4"
+            <div className="flex flex-col items-center space-y-4 px-4 sm:px-0">
+              <Button
+                  size="lg"
+                  className="w-full sm:w-auto bg-gradient-primary text-primary-foreground hover:shadow-cyan group text-lg px-8 py-4"
                 onClick={() => window.open('https://www.autoscout24.at/haendler/space-motors-gmbh', '_blank')}
               >
                 Alle Fahrzeuge auf AutoScout24 ansehen
