@@ -64,21 +64,8 @@ const Impressum = () => {
                   </div>
                   <div className="space-y-2 text-sm">
                     <p><strong>Telefon:</strong> +43 664 9103790</p>
-                    <p><strong>E-Mail:</strong> ????</p>
-                    <p><strong>Website:</strong> ???</p>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex items-center space-x-2 mb-4">
-                    <Mail className="h-5 w-5 text-space-yellow" />
-                    <h2 className="text-xl font-semibold">Zuständige Aufsichtsbehörde</h2>
-                  </div>
-                  <div className="space-y-2 text-sm">
-                    <p><strong>Gewerbeordnung:</strong> www.ris.bka.gv.at</p>
-                    <p><strong>Bezirkshauptmannschaft:</strong> Wels?</p>
-                    <p><strong>Berufsbezeichnung:</strong> Kraftfahrzeugtechnik</p>
-                    <p><strong>Verleihungsstaat:</strong> Österreich</p>
+                    <p><strong>E-Mail:</strong> office@spacemotors.at</p>
+                    <p><strong>Website:</strong> www.spacemotors.at</p>
                   </div>
                 </div>
               </div>

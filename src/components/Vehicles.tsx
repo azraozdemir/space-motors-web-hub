@@ -1,4 +1,4 @@
-import { ExternalLink, Star, Calendar, Gauge, Fuel } from 'lucide-react';
+import {ExternalLink, Star, Calendar, Gauge, Fuel, Phone} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
@@ -73,29 +73,6 @@ const Vehicles = () => {
               </p>
             </div>
 
-            {/* Mock Vehicle Preview Cards
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              {[1, 2, 3].map((_, index) => (
-                <Card key={index} className="p-4 bg-card/50 backdrop-blur-sm border-border/50 group hover:border-space-cyan/40 transition-all duration-300">
-                  <div className="aspect-video bg-gradient-glow rounded-lg mb-4 flex items-center justify-center">
-                    <Gauge className="h-12 w-12 text-space-cyan opacity-50" />
-                  </div>
-                  <div className="text-left">
-                    <h4 className="font-semibold mb-1 group-hover:text-space-cyan transition-colors">
-                      Premium Fahrzeug {index + 1}
-                    </h4>
-                    <p className="text-sm text-muted-foreground mb-2">
-                      Weitere Details auf AutoScout24
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-space-yellow font-bold">ab €15.900</span>
-                      <ExternalLink className="h-4 w-4 text-space-cyan" />
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div> */}
-
             <div className="flex flex-col items-center space-y-4 px-4 sm:px-0">
               <Button
                   size="lg"
@@ -125,8 +102,13 @@ const Vehicles = () => {
             <p className="text-muted-foreground mb-4">
               Sie möchten Ihr Fahrzeug verkaufen? Wir kaufen Fahrzeuge aller Marken zu fairen Preisen an.
             </p>
-            <Button variant="outline" className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground">
-              ????
+            <Button
+                variant="outline"
+                className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground"
+                onClick={() => window.location.href = 'tel:+436649103790'}
+            >
+              <Phone className="mr-2 h-4 w-4" />
+              Jetzt anrufen
             </Button>
           </Card>
 
@@ -137,8 +119,13 @@ const Vehicles = () => {
             <p className="text-muted-foreground mb-4">
               Nutzen Sie Ihr altes Fahrzeug als Anzahlung für Ihren neuen Traumwagen.
             </p>
-            <Button variant="outline" className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground">
-              ????
+            <Button
+                variant="outline"
+                className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground"
+                onClick={() => window.location.href = 'tel:+436649103790'}
+            >
+              <Phone className="mr-2 h-4 w-4" />
+              Jetzt anrufen
             </Button>
           </Card>
         </div>

@@ -74,7 +74,7 @@ const GoogleReviews = () => {
 
               <div className="text-center mt-4">
                 <a
-                    href="https://www.google.com/search?sa=X&sca_esv=452a92eb2c2ade68&rlz=1C1LRNT_deAT1041AT1042&biw=1536&bih=695&tbm=lcl&sxsrf=AE3TifNl17NS1kHfBW4LntUlOHzChwxCtg:1756924420779&q=Space%20Motors%20GmbH%20Rezensionen&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDMwNzE3NDcEMkwMLU1MjSyNNzAyvmKUDS5ITE5V8M0vyS8qVnDPTfJQCEqtSs0rzszPS81bxIpfHgAmZKeAWwAAAA&rldimm=16074717116041945293&hl=de-AT&ved=0CAwQ5foLahcKEwiQw5bHnb2PAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=ChdDSUhNMG9nS0VJSHI3SzJsdXRHLTFnRRAB"
+                    href="https://www.google.com/search?sca_esv=518de7ca735d1bf8&biw=1536&bih=695&sxsrf=AE3TifOa-3ckWifVjlgkxJay_QAKJChViw:1756942573079&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E4k5L7CXjuquPH3-nsIQF6h2HvabqbquGvn8GL6iZU4BOb5RYJmmCAxWrI4DB4--NMKjbr_MtXZXf58DvupF2n40wZrSK55TaLcKTmQxXVpMwMcRSA%3D%3D&q=Space+Motors+GmbH+Rezensionen&sa=X&ved=2ahUKEwif99WP4b2PAxW_HBAIHUcIJqEQ0bkNegQILBAD"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-space-cyan font-medium underline hover:text-space-yellow"
