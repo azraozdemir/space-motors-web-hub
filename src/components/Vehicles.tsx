@@ -130,10 +130,20 @@ const Vehicles = () => {
           </Card>
 
           <Card className="p-6 bg-card/30 backdrop-blur-sm border-border/50">
-          <h4 className="text-x1 font-smibold mb-4 text-space-white">
-              Werksatt
-          </h4>
-          <p className="text-muted-forderground mb-4">Nutzen Sie unsere Werkstatt Services wie § 57 Überprüfung und Reperatur. </p>
+            <h4 className="text-x1 font-smibold mb-4 text-space-yellow">
+                Werkstatt
+            </h4>
+            <p className="text-muted-forderground mb-4">
+              Nutzen Sie unsere Werkstatt Services wie § 57 Überprüfung und Reperatur. 
+            </p>
+            <Button
+                  variant="outline"
+                  className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground"
+                  onClick={() => window.location.href = 'tel:+436649103790'}
+              >
+                <Phone className="mr-2 h-4 w-4" />
+                Jetzt anrufen
+              </Button>
           </Card>
         </div>
       </div>
