@@ -121,7 +121,7 @@ const Vehicles = () => {
             </p>
             <Button
                 variant="outline"
-                className="border-space-yellow text-space-yellow hover:bg-space-yellow hover:text-primary-foreground"
+                className="border-space-cyan text-space-yellow hover:bg-space-cyan hover:text-primary-foreground"
                 onClick={() => window.location.href = 'tel:+436649103790'}
             >
               <Phone className="mr-2 h-4 w-4" />
@@ -139,7 +139,7 @@ const Vehicles = () => {
             <Button
                   variant="outline"
                   className="border-space-cyan text-space-cyan hover:bg-space-cyan hover:text-primary-foreground"
-                  onClick={() => window.location.href = 'tel:+436649103790'}
+                  onClick={() => window.location.href = 'tel:+436603510256'}
               >
                 <Phone className="mr-2 h-4 w-4" />
                 Jetzt anrufen
