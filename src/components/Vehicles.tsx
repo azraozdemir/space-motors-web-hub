@@ -128,6 +128,13 @@ const Vehicles = () => {
               Jetzt anrufen
             </Button>
           </Card>
+
+          <Card className="p-6 bg-card/30 backdrop-blur-sm border-border/50">
+          <h4 className="text-x1 font-smibold mb-4 text-space-white">
+              Werksatt
+          </h4>
+          <p className="text-muted-forderground mb-4">Nutzen Sie unsere Werkstatt Services wie § 57 Überprüfung und Reperatur. </p>
+          </Card>
         </div>
       </div>
     </section>
