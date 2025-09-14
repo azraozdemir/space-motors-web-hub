@@ -134,7 +134,7 @@ const Vehicles = () => {
                 Werkstatt
             </h4>
             <p className="text-muted-forderground mb-4">
-              Nutzen Sie unsere Werkstatt Services wie § 57 Überprüfung und Reperatur. 
+              Nutzen Sie unsere Werkstatt-Services wie § 57-Überprüfung und Reparatur.
             </p>
             <Button
                   variant="outline"
